@@ -386,11 +386,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             else if (squares[i].innerHTML == 1024) {
                 squares[i].style.backgroundColor = '#f8c12a'
-                squares[i].style.fontSize = '42px';
+                squares[i].style.fontSize = '35px';
             } 
             else if (squares[i].innerHTML == 2048) {
                 squares[i].style.backgroundColor = '#f7b500'
-                squares[i].style.fontSize = '42px';
+                squares[i].style.fontSize = '35px';
             }
         }    
     }
